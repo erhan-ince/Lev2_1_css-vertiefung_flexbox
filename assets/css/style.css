@@ -1,0 +1,32 @@
+/* body {
+   height: 100vh;
+   background: url(https://source.unsplash.com/random) center/cover no-repeat;
+   width: 100%;
+} */
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   border-bottom: 1px solid black;
+   color: black;
+}
+ul {
+   display: flex;
+   list-style: none;
+}
+li {
+   padding-right: 20px;
+}
+section {
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   height: 100%;
+   border: 5px solid black;
+}
+img {
+   width: 23%;
+   margin-top: 1%;
+   margin-bottom: 1%;
+}
